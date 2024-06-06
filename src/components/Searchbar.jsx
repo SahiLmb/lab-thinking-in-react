@@ -24,7 +24,7 @@ export default function SearchBar({ onSearchChange, onStockChange }) {
         <input
           className="searchbar"
           type="text"
-          placeholder="search...."
+          placeholder="Search...."
           value={searchTerm}
           onChange={handleSearchChange}
         />
